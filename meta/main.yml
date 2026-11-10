@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  role_name: docker
+  namespace: avi1505
+  author: avi1505
+  description: Installeert docker.io en Docker Compose op Ubuntu 24.04.
+  license: MIT
+  min_ansible_version: "2.19"
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - noble
+
+dependencies: []
